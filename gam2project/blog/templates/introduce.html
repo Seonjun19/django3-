@@ -1,0 +1,55 @@
+introduce.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I AM..</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="header">
+        <div class="list-group">
+            <a href="{% url 'index' %}" class="list-group-item list-group-item-action active" aria-current="true">Park Seon Jun</a>
+            <a href="{% url 'introduce' %}" class="list-group-item list-group-item-action">Introduce</a>
+            <a href="{% url 'history' %}" class="list-group-item list-group-item-action">History</a>
+            <a href="{% url 'contact_me' %}" class="list-group-item list-group-item-action">Contact me</a>
+            <a href="{% url 'favorite' %}" class="list-group-item list-group-item-action">Favorite</a>
+            <a href="{% url 'home' %}" class="list-group-item list-group-item-action">메인 페이지로</a>
+        </div>
+    </div>
+
+    <div class="main">
+        <div class="up-two">
+            <div class="main__content">
+                <h2>Profile</h2>
+                <div class="main__content--profile">
+                    <img src="psj.jpg" width="200">
+                    <p>
+                        이름:박선준
+                        생년:2001.11.19
+                        취미:산책, 글쓰기, 배드민턴
+                    </p>   
+                </div>
+            </div>
+            <div class="main__content">
+                <div class="main__content--career">
+
+                </div>
+
+            </div>
+        </div>
+
+    <img src="psj.jpg" width="200"><br><br>
+        <h3>개인정보</h3>   
+        <h5>이름:박선준</h5>
+        <h5>생년:2001.11.19</h5>
+        <h5>고향:<a href="https://www.google.com/search?q=%EB%8B%B9%EC%A7%84&oq=%EB%8B%B9%EC%A7%84&aqs=chrome..69i57j69i61l2.609j0j7&sourceid=chrome&ie=UTF-8" target="_blank" title="당진이 어디 있어?">충남 당진시</a></h5>
+        <h5>취미:산책, 글쓰기, 배드민턴</h5>
+    <h3>소개글</h3>
+    <p>안녕하세요:) 항공전자정보공학부 21학번 박선준입니다.</p>
+</body>
+</html>
