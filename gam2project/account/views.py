@@ -38,5 +38,5 @@ def logout(request):
     auth.logout(request)
     return redirect('/')
 
-def mypage(requset):
+def mypage(request):
     return render(request, 'mypage.html')

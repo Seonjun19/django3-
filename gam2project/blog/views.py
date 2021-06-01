@@ -57,3 +57,4 @@ def contact_me(request):
 
 def favorite(request):
     return render(request, 'favorite.html')
+
